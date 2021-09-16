@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+    width: 100%;
+    height: 600px;
+}
+
+.primeraparte {
+    background-color: rgb(5, 205, 219);
+    height: 460px;
+}
+
+#texto1 {
+    text-align: center;
+    color: rgb(3, 80, 116);
+}
+
+#texto2 {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+.contenedornav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedornav a {
+    color: rgb(0, 81, 148);
+}
+
+.museo1 {
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-color: rgb(255, 94, 0);
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+}
+
+#imgm1 {
+    width: 300px;
+    height: 180px;
+}
+
+.imagen {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-color: rgba(255, 123, 0, 0.589);
+    outline: 10px solid rgb(255, 81, 0);
+    border-style: solid;
+    border-width: 10px;
+    width: 300px;
+    height: 180px;
+    float: left;
+}
+
+.texto3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    padding: 0px;
+    width: 61%;
+    float: right;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.segundaparte {
+    margin-top: 4px;
+    background-color: rgb(5, 205, 219);
+    height: 370px;
+}
+
+.museo2 {
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-color: rgba(255, 123, 0, 0.589);
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+}
+
+#im2 {
+    width: 300px;
+    height: 220px;
+}
+
+.imagen2 {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-color: rgb(255, 81, 0);
+    outline: 10px solid rgba(255, 123, 0, 0.589);
+    border-style: solid;
+    border-width: 10px;
+    width: 300px;
+    height: 220px;
+    float: right;
+}
+
+.texto4 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 0px;
+    width: 61%;
+    float: left;
+}
+
+.terceraparte {
+    margin-top: 4px;
+    background-color: rgb(5, 205, 219);
+    height: 740px;
+}
+
+.museo3 {
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-color: rgb(255, 94, 0);
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+}
+
+#im3 {
+    width: 300px;
+    height: 220px;
+}
+
+.imagen3 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-color: rgba(255, 123, 0, 0.589);
+    outline: 10px solid rgb(255, 94, 0);
+    border-style: solid;
+    border-width: 10px;
+    width: 300px;
+    height: 220px;
+    float: left;
+}
+
+.texto5 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    padding: 0px;
+    width: 61%;
+    float: right;
+}
+
+.museo4 {
+    margin-top: 380px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-color: rgba(255, 123, 0, 0.589);
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+}
+
+#im4 {
+    width: 300px;
+    height: 220px;
+}
+
+.imagen4 {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-color: rgb(255, 81, 0);
+    outline: 10px solid rgba(255, 123, 0, 0.589);
+    border-style: solid;
+    border-width: 10px;
+    width: 300px;
+    height: 220px;
+    float: right;
+}
+
+.texto6 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 0px;
+    width: 61%;
+    float: left;
+}
+
+/*Pagina The britain*/
+.header1 {
+    width: 100%;
+    height: 600px;
+    background: #005AA7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/descarga\ \(1\).jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/descarga\ \(1\).jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.textosbr {
+    margin-top: 160px;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+.contenido1 {
+    position: absolute;
+}
+
+#imbr {
+    margin-left: 350px;
+    width: 500px;
+    height: 300px;
+}
+
+.history>p {
+    position: absolute;
+    text-align: justify;
+    margin-top: 350px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.foot1>p {
+    position: absolute;
+    text-align: left;
+    margin-top: 520px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Pagina British*/
+.header2 {
+    width: 100%;
+    height: 600px;
+    background: #005AA7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/British-Musuem-front.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/British-Musuem-front.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+/*Pagina National Gallery*/
+.header3{
+    width: 100%;
+    height: 600px;
+    background: #005AA7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES//galety.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/galety.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+/*Natural History Museum*/
+.header4{
+    width: 100%;
+    height: 600px;
+    background: #005AA7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/natural.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(196, 75%, 66%, 0.658), hsla(231, 97%, 47%, 0.603)), url(/IMAGES/natural.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
